@@ -19,7 +19,7 @@ const ResultCard = ({ album, index }: props) => {
     }
 
     return (
-        <Box w="300px" rounded="20px" shadow="2px 2px 2px lightgray"
+        <Box maxW="300px" rounded="20px" shadow="2px 2px 2px lightgray"
            overflow="hidden" mt={10} key={index}>
         <img src=
 {album.data.coverArt.sources[0].url}
