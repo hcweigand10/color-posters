@@ -23,7 +23,7 @@ const ResultCard = ({ album, index }: props) => {
            overflow="hidden" mt={10} key={index}>
         <img src=
 {album.data.coverArt.sources[0].url}
-               alt="Card Image"/>
+               alt="cover art"/>
         <Box p={5}>
           <Stack align="center">
             <Text as="h1" fontWeight="bold" my={2} >

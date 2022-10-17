@@ -18,7 +18,6 @@ const Results = () => {
     const renderResults = () => {
         if (results) {
             return results.map((album: Album, index: number) => {
-                console.log(album)
                 return (
                     <ResultCard album={album} index={index}/>
                 );
